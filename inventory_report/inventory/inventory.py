@@ -11,7 +11,7 @@ class Inventory:
         # faz a leitura do arquivo CSV
         # joga esse arquivo no tipo de relatório
         # retorna o relatório
-        extensao =  Path(caminho).suffix
+        extensao = Path(caminho).suffix
         info = None
         if extensao == ".csv":
             with open(caminho, "r") as file_csv:
