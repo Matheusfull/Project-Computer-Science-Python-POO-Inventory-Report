@@ -4,7 +4,7 @@ from collections import Counter
 
 class CompleteReport(SimpleReport):
     @classmethod
-    def generate(self, list):
+    def generate(cls, list):
         dados_simples = SimpleReport.generate(list)
         lista_empresa = ''
         emresas_objetos = Counter(el["nome_da_empresa"] for el in list)
@@ -16,3 +16,6 @@ class CompleteReport(SimpleReport):
             f"Produtos estocados por empresa:\n"
             f"{lista_empresa}"
         )
+
+# método estátido recebe um parêmetro
+# método de classe recebe dois parâmetro, sendo o primeiro cls
