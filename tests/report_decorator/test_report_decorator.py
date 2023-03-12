@@ -11,7 +11,7 @@ data = [
         "data_de_validade": "2023-11-18",
         "numero_de_serie": "SM28 B981 5118 903W JY0C 5KVO 3QD",
         "instrucoes_de_armazenamento": "instrucao 7"
-  }
+    }
 ]
 
 
