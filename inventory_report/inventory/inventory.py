@@ -8,9 +8,6 @@ from inventory_report.reports.complete_report import CompleteReport
 class Inventory:
     @staticmethod
     def import_data(caminho, tipo):
-        # faz a leitura do arquivo CSV
-        # joga esse arquivo no tipo de relatório
-        # retorna o relatório
         extensao = Path(caminho).suffix
         info = None
         if extensao == ".csv":
