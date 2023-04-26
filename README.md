@@ -47,7 +47,7 @@
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:Matheusfull/Project_Computer_Science_Inventory_Report.git`.
+  - Use o comando: `git clone git@github.com:Matheusfull/Project-Computer-Science-Python-POO-Inventory-Report.git`.
   - Entre na pasta do repositório que você acabou de clonar:
     - `cd Project-Computer-Science-Python-POO-Inventory-Report`
 
