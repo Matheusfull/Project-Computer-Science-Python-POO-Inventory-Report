@@ -49,7 +49,7 @@
 
   - Use o comando: `git clone git@github.com:Matheusfull/Project_Computer_Science_Inventory_Report.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd Project_Computer_Science_Inventory_Report`
+    - `cd Project-Computer-Science-Python-POO-Inventory-Report`
 
   2. Crie o ambiente virtual para o projeto
 
